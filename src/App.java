@@ -9,5 +9,6 @@ public class App {
         pedidoService.realizar(pedido);
         pedido = null; // el obj se vuelve elegible para el garbage collector
         pedidoService = null;
+        
     }
 }
