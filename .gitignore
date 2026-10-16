@@ -1,0 +1,16 @@
+# Compilados y clases
+*.class
+*.log
+
+# Carpetas de construcción
+target/
+build/
+.gradle/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
