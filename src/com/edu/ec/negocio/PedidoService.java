@@ -10,7 +10,7 @@ public class PedidoService {
         System.out.println("Total: " + pedido.getTotal());
         System.out.println("Correo: " + pedido.getCorreo());
         System.out.println("Pedido realizado con exito. \n ::::::::::::::::::::::::::::: ");
-
+        System.out.println("Pedido enviado con exito ");
         MailService mailService = new MailService();
         String asunto = "Confirmacion de pedido";
         String cuerpo = "Estimado " + pedido.getCliente() + ", su pedido de " + pedido.getProducto()
